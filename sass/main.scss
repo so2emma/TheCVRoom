@@ -18,7 +18,7 @@
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
-  height: 400px;
+  // height: 400px;
   margin-top: 0;
 
   @media screen and (min-width: 768px) {
@@ -27,6 +27,27 @@
     background-position: right;
     background-repeat: no-repeat;
   }
+}
+
+//carousel
+.carousel-item{
+  height: 450px;
+}
+.carousel-image-1{
+  background: transparent;
+  background-size: cover;
+}
+.carousel-image-2{
+  background: transparent;
+  background-size: cover;
+}
+.carousel-image-3{
+  background: transparent;
+  background-size: cover;
+}
+
+.rating{
+  color: gold;
 }
 
 .companies {
@@ -65,7 +86,7 @@
 
   .footer-custom-pill {
     color: white;
-    background-color: rgba(255, 255, 255, 0.3);
+    // background-color: rgba(255, 255, 255, 0.3);
     border-radius: 40px;
     margin: 0 10px;
   }
@@ -73,11 +94,13 @@
   span {
     // background-color: rgba(255, 255, 255, 0.3);
     i {
+      // width: 30px;
+      // height: 30px;
       margin: 10px;
       font-size: 1.2rem;
-      background-color: rgba(255, 255, 255, 0.3);
-      padding: 10px;
-      border-radius: 100%;
+      // background-color: rgba(255, 255, 255, 0.3);
+      // padding: 15px;
+      // border-radius: 50%;
     }
   }
 }
