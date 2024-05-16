@@ -1,6 +1,6 @@
 //custom styles
 .nav-section {
-  // background: url("../assets/img/landingPage-1.png");
+  background: linear-gradient(to right, rgba(166, 28, 87,0.15), rgba(241,241,241,1));
   nav {
     background: rgba(0, 0, 0, 0);
     .nav-link {
@@ -10,6 +10,22 @@
     .btn {
       font-weight: 500;
     }
+  }
+}
+
+.banner {
+  background: linear-gradient(to right, rgba(166, 28, 87,0.1), rgba(241,241,241,1));
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-top: 0;
+
+  @media screen and (min-width: 768px) {
+    background: url("../assets/img/landingPage-1.png"), linear-gradient(to right, rgba(166, 28, 87,0.1), rgba(241,241,241,1));
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
   }
 }
 
@@ -33,9 +49,9 @@
   background-color: #fbfbfb;
 }
 
-.get-started{
+.get-started {
   background-color: #fbfbfb;
-  .container{
+  .container {
     background: rgba(0, 0, 0, 0.863) url("../assets/img/get-started.png");
     background-size: cover;
     background-position: center center;
@@ -43,20 +59,20 @@
   }
 }
 
-.footer{
-  background-color: #1A0E0E;
+.footer {
+  background-color: #1a0e0e;
   color: rgb(255, 255, 255);
 
-  .footer-custom-pill{
+  .footer-custom-pill {
     color: white;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 40px;
     margin: 0 10px;
   }
 
-  span{
+  span {
     // background-color: rgba(255, 255, 255, 0.3);
-    i{
+    i {
       margin: 10px;
       font-size: 1.2rem;
       background-color: rgba(255, 255, 255, 0.3);
@@ -66,24 +82,22 @@
   }
 }
 
-.nav-pill{
+.nav-pill {
   background-color: rgb(246, 243, 218);
   margin: 0;
-  padding:0;
+  padding: 0;
   color: black;
   border-radius: 30px;
-  p{
+  p {
     margin: 0;
   }
 }
 
-
 //bootstrap icons
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-
 //custom variables
-$primary: #a61c57;
+$primary: rgb(166, 28, 87);
 
 // importing bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
