@@ -3,7 +3,6 @@ body{
 }
 //custom styles
 .nav-section {
-  background: linear-gradient(to right, rgba(166, 28, 87,0.15), rgba(241,241,241,1));
   nav {
     background: rgba(0, 0, 0, 0);
     .nav-link {
@@ -14,6 +13,9 @@ body{
       font-weight: 500;
     }
   }
+}
+.linear-design{
+  background: linear-gradient(to right, rgba(166, 28, 87,0.15), rgba(241,241,241,1));
 }
 
 .banner {
