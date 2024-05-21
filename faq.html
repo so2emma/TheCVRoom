@@ -2,165 +2,333 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css" />
 
 </head>
 
 <body>
-    <section class="nav-section mb-5">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <svg width="63" height="55" viewBox="0 0 63 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M45.0231 54.8387C43.9871 54.0642 42.8386 54.5983 41.735 54.4915C41.262 54.4381 40.9918 54.3045 40.7666 53.7971C40.0234 52.1411 39.2576 50.5119 38.4919 48.856C38.4018 48.669 38.3117 48.5088 38.1991 48.2684C37.6811 48.7224 37.2082 49.1498 36.7127 49.5504C31.6003 53.7169 25.97 55.2393 19.8666 54.0374C10.4076 52.1678 3.06562 43.7813 1.12877 32.8041C-1.12338 20.1976 4.41691 7.45756 14.3714 2.27608C22.7944 -2.10413 32.7264 -0.0475698 39.3928 7.45756C39.7306 7.83148 39.7531 8.07186 39.4153 8.47249C38.6721 9.35388 37.9514 10.262 37.2532 11.1701C36.9379 11.5974 36.7578 11.5707 36.3974 11.1968C32.9066 7.29731 28.7626 5.32087 23.9881 5.1072C23.8079 5.1072 23.6052 5.1072 23.3349 5.1072C23.4476 5.401 23.5151 5.58796 23.6052 5.77492C26.3979 11.8378 29.1905 17.9006 31.9607 23.9902C33.7624 27.9164 35.5641 31.8426 37.3884 35.7687C37.591 36.2228 37.6136 36.57 37.3208 36.9706C36.4875 38.1458 35.6767 39.3477 34.7533 40.6831C34.1002 39.2943 33.5822 38.1458 33.0417 36.9973C28.3572 26.848 23.6502 16.7255 18.9658 6.54947C18.7406 6.042 18.5379 5.90846 18.0424 6.09542C10.813 8.84641 5.65559 16.405 5.02499 25.3257C4.21421 36.4632 10.6779 46.6391 19.9117 48.8827C26.1727 50.4051 35.474 47.3069 39.6855 38.3862C41.0143 35.5551 42.1854 32.5904 43.4241 29.6792C47.0501 21.1591 50.676 12.6123 54.302 4.06556C54.8425 2.78355 55.383 1.52824 55.9911 0.139391C56.1487 0.406478 56.2388 0.566729 56.3064 0.726981C58.3108 5.401 60.2927 10.1017 62.2971 14.7757C62.4773 15.2031 62.4773 15.5236 62.2971 15.9509M55.9686 11.5173C55.8334 11.8111 55.7434 11.9713 55.6758 12.1316C52.6354 19.2628 49.64 26.394 46.5771 33.5252C45.0006 37.1576 43.7169 41.0036 41.5323 44.2354C41.4422 44.3689 41.4647 44.7161 41.5548 44.9031C42.0728 46.0783 42.6133 47.2535 43.1539 48.4286C43.2214 48.5622 43.3115 48.669 43.4241 48.8293C43.5367 48.5889 43.6268 48.4019 43.7169 48.215C45.9465 42.9534 48.1761 37.7185 50.4058 32.4569C52.748 26.9549 55.0677 21.4529 57.41 15.9509C57.5 15.7105 57.6126 15.3633 57.5226 15.1764C57.0496 14.0012 56.5316 12.826 55.9686 11.5173Z"
-                            fill="#A61C57" />
-                    </svg>
-
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                    <div class="navbar-nav align-itmes-center">
-                        <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
-                        <a class="nav-link " href="services.html">Services</a>
-                        <a class="nav-link text-primary" href="faq.html">FAQ</a>
-                        <a class="btn btn-outline-primary" href="contact.html">Contact Us</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </section>
-
-    <section class="heading-services pb-5">
-        <div class="container">
-            <span class="d-flex justify-content-center">
-                <p class="custom-pill">FAQ'S</p>
-            </span>
-            <p class="text-primary text-center fs-3 fw-bold">
-                FREQUENTLY ASKED QUESTIONS
-            </p>
-            <p class="lead fw-normal text-center">
-                Have any questions? Read popular answers below
-            </p>
-
-            <form action="">
-                <div class="mb-3">
-                    <input type="text" class="form-control" id="" placeholder="Search Questions">
-                </div>
-            </form>
-        </div>
-    </section>
-
-    <section class="questions-section mb-5">
-        <div class="container">
-            <div class="accordion mb-3" id="accordionExample">
-                <div class="accordion-item mb-3 border-primary">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#question1" aria-expanded="false" aria-controls="question1">
-                        Accordion Item #2
-                      </button>
-                    </h2>
-                    <div id="question1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                      </div>
-                    </div>
-                  </div>
-            </div>
-            <div class="accordion mb-3" id="accordionExample">
-                <div class="accordion-item mb-3 border-primary">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#question2" aria-expanded="false" aria-controls="question2">
-                        Accordion Item #2
-                      </button>
-                    </h2>
-                    <div id="question2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                      </div>
-                    </div>
-                  </div>
-            </div>
-
-            <div class="accordion mb-3" id="accordionExample">
-                <div class="accordion-item mb-3 border-primary">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#question3" aria-expanded="false" aria-controls="question3">
-                        Accordion Item #2
-                      </button>
-                    </h2>
-                    <div id="question3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                      </div>
-                    </div>
-                  </div>
-            </div>
-
-            <div class="accordion mb-3" id="accordionExample">
-                <div class="accordion-item mb-3 border-primary">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Accordion Item #2
-                      </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                      </div>
-                    </div>
-                  </div>
-            </div>
-        </div>
-    </section>
-    <footer class="footer py-5">
+  <section class="nav-section mb-5">
+    <nav class="navbar navbar-expand-lg">
       <div class="container">
-          <div class="row justify-content-center align-items-center">
-              <div class="col-sm-10 col-md-6 col-lg-6 justify-content-center justify-content-md-start text-center">
-                  <svg width="57" height="51" viewBox="0 0 57 51" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                          d="M39.6028 47.2487C38.7395 46.6033 37.7823 47.0484 36.8627 46.9594C36.4685 46.9149 36.2433 46.8036 36.0556 46.3807C35.4363 45.0007 34.7982 43.6431 34.1601 42.2631C34.085 42.1073 34.0099 41.9738 33.9161 41.7735C33.4844 42.1518 33.0903 42.5079 32.6774 42.8418C28.4171 46.3139 23.7251 47.5826 18.639 46.581C10.7565 45.023 4.63818 38.0342 3.02414 28.8865C1.14735 18.3811 5.76425 7.76444 14.0597 3.44654C21.0789 -0.203641 29.3555 1.51016 34.9108 7.76444C35.1923 8.07604 35.2111 8.27635 34.9296 8.61021C34.3102 9.3447 33.7097 10.1014 33.1278 10.8582C32.8651 11.2143 32.715 11.192 32.4147 10.8804C29.5056 7.6309 26.0524 5.98386 22.0736 5.80581C21.9234 5.80581 21.7545 5.80581 21.5293 5.80581C21.6231 6.05063 21.6794 6.20644 21.7545 6.36224C24.0817 11.4146 26.4089 16.467 28.7174 21.5417C30.2188 24.8135 31.7203 28.0853 33.2405 31.3571C33.4094 31.7355 33.4281 32.0248 33.1842 32.3587C32.4897 33.338 31.8141 34.3395 31.0446 35.4524C30.5003 34.295 30.0687 33.338 29.6183 32.3809C25.7145 23.9232 21.792 15.4877 17.8883 7.00769C17.7006 6.58481 17.5317 6.47352 17.1188 6.62932C11.0943 8.92181 6.79649 15.2206 6.27099 22.6545C5.59534 31.9358 10.9817 40.4158 18.6766 42.2854C23.894 43.554 31.6452 40.9722 35.1548 33.5383C36.2621 31.179 37.238 28.7085 38.2703 26.2824C41.2919 19.1824 44.3135 12.0601 47.3352 4.93777C47.7856 3.86943 48.236 2.82334 48.7427 1.66596C48.8741 1.88854 48.9492 2.02208 49.0055 2.15562C50.6758 6.05063 52.3274 9.9679 53.9978 13.8629C54.1479 14.219 54.1479 14.4861 53.9978 14.8422M48.724 11.1475C48.6114 11.3924 48.5363 11.5259 48.48 11.6594C45.9463 17.6021 43.4502 23.5448 40.8978 29.4875C39.584 32.5145 38.5142 35.7195 36.6937 38.4126C36.6187 38.5239 36.6374 38.8132 36.7125 38.969C37.1442 39.9484 37.5946 40.9277 38.045 41.907C38.1013 42.0183 38.1764 42.1073 38.2703 42.2409C38.3641 42.0405 38.4392 41.8847 38.5142 41.7289C40.3723 37.3443 42.2303 32.9819 44.0883 28.5972C46.0402 24.0122 47.9733 19.4272 49.9251 14.8422C50.0002 14.6419 50.094 14.3526 50.019 14.1968C49.6248 13.2175 49.1932 12.2381 48.724 11.1475Z"
-                          fill="white" />
-                  </svg>
+        <a class="navbar-brand" href="index.html">
+          <svg width="63" height="55" viewBox="0 0 63 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M45.0231 54.8387C43.9871 54.0642 42.8386 54.5983 41.735 54.4915C41.262 54.4381 40.9918 54.3045 40.7666 53.7971C40.0234 52.1411 39.2576 50.5119 38.4919 48.856C38.4018 48.669 38.3117 48.5088 38.1991 48.2684C37.6811 48.7224 37.2082 49.1498 36.7127 49.5504C31.6003 53.7169 25.97 55.2393 19.8666 54.0374C10.4076 52.1678 3.06562 43.7813 1.12877 32.8041C-1.12338 20.1976 4.41691 7.45756 14.3714 2.27608C22.7944 -2.10413 32.7264 -0.0475698 39.3928 7.45756C39.7306 7.83148 39.7531 8.07186 39.4153 8.47249C38.6721 9.35388 37.9514 10.262 37.2532 11.1701C36.9379 11.5974 36.7578 11.5707 36.3974 11.1968C32.9066 7.29731 28.7626 5.32087 23.9881 5.1072C23.8079 5.1072 23.6052 5.1072 23.3349 5.1072C23.4476 5.401 23.5151 5.58796 23.6052 5.77492C26.3979 11.8378 29.1905 17.9006 31.9607 23.9902C33.7624 27.9164 35.5641 31.8426 37.3884 35.7687C37.591 36.2228 37.6136 36.57 37.3208 36.9706C36.4875 38.1458 35.6767 39.3477 34.7533 40.6831C34.1002 39.2943 33.5822 38.1458 33.0417 36.9973C28.3572 26.848 23.6502 16.7255 18.9658 6.54947C18.7406 6.042 18.5379 5.90846 18.0424 6.09542C10.813 8.84641 5.65559 16.405 5.02499 25.3257C4.21421 36.4632 10.6779 46.6391 19.9117 48.8827C26.1727 50.4051 35.474 47.3069 39.6855 38.3862C41.0143 35.5551 42.1854 32.5904 43.4241 29.6792C47.0501 21.1591 50.676 12.6123 54.302 4.06556C54.8425 2.78355 55.383 1.52824 55.9911 0.139391C56.1487 0.406478 56.2388 0.566729 56.3064 0.726981C58.3108 5.401 60.2927 10.1017 62.2971 14.7757C62.4773 15.2031 62.4773 15.5236 62.2971 15.9509M55.9686 11.5173C55.8334 11.8111 55.7434 11.9713 55.6758 12.1316C52.6354 19.2628 49.64 26.394 46.5771 33.5252C45.0006 37.1576 43.7169 41.0036 41.5323 44.2354C41.4422 44.3689 41.4647 44.7161 41.5548 44.9031C42.0728 46.0783 42.6133 47.2535 43.1539 48.4286C43.2214 48.5622 43.3115 48.669 43.4241 48.8293C43.5367 48.5889 43.6268 48.4019 43.7169 48.215C45.9465 42.9534 48.1761 37.7185 50.4058 32.4569C52.748 26.9549 55.0677 21.4529 57.41 15.9509C57.5 15.7105 57.6126 15.3633 57.5226 15.1764C57.0496 14.0012 56.5316 12.826 55.9686 11.5173Z"
+              fill="#A61C57" />
+          </svg>
 
-                  <p class="lead fw-bold my-3">
-                      The CV Room | Stand Out With A <br> Powerful CV
-                  </p>
-
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-6 ">
-                  <div class="d-flex justify-content-center">
-                      <a href="" class="btn footer-custom-pill">Home</a>
-                      <a href="" class="btn footer-custom-pill">Testimonials</a>
-                      <a href="" class="btn footer-custom-pill ">FAQ'S</a>
-                      <a href="" class="btn footer-custom-pill ">Contact</a>
-                  </div>
-                  <div class="d-flex justify-content-center">
-                      <span><i class="bi bi-linkedin"></i></span>
-                      <span><i class="bi bi-instagram"></i></span>
-                      <span><i class="bi bi-twitter-x"></i></span>
-                      <span><i class="bi bi-facebook"></i></span>
-                  </div>
-
-              </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav align-itmes-center">
+            <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+            <a class="nav-link " href="services.html">Services</a>
+            <a class="nav-link text-primary" href="faq.html">FAQ</a>
+            <a class="btn btn-outline-primary" href="contact.html">Contact Us</a>
           </div>
+        </div>
       </div>
+    </nav>
+  </section>
+
+  <section class="heading-services pb-5">
+    <div class="container">
+      <span class="d-flex justify-content-center">
+        <p class="custom-pill">FAQ'S</p>
+      </span>
+      <p class="text-primary text-center fs-3 fw-bold">
+        FREQUENTLY ASKED QUESTIONS
+      </p>
+      <p class="lead fw-normal text-center">
+        Have any questions? Read popular answers below
+      </p>
+
+      <form action="">
+        <div class="mb-3">
+          <input type="text" class="form-control" id="" placeholder="Search Questions">
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="questions-section mb-5">
+    <div class="container">
+      <div class="accordion mb-3" id="accordionExample">
+        <div class="accordion-item mb-3 border-primary">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+              Do I need to have an existing CV before I can order the service?
+            </button>
+          </h2>
+          <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eum doloremque. Aliquam ut nobis ipsam
+              commodi dolor placeat? Laborum at iste et velit inventore ullam iure quo, tempore eligendi tempora.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mb-3" id="accordionExample">
+        <div class="accordion-item mb-3 border-primary">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+              How do I send you my existing CV?
+            </button>
+          </h2>
+          <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eum doloremque. Aliquam ut nobis ipsam
+              commodi dolor placeat? Laborum at iste et velit inventore ullam iure quo, tempore eligendi tempora.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion mb-3" id="accordionExample">
+        <div class="accordion-item mb-3 border-primary">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+              Do I need to have all my information when ordering the service?
+            </button>
+          </h2>
+          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eum doloremque. Aliquam ut nobis ipsam
+              commodi dolor placeat? Laborum at iste et velit inventore ullam iure quo, tempore eligendi tempora.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion mb-3" id="accordionExample">
+        <div class="accordion-item mb-3 border-primary">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+              How much does it cost?
+            </button>
+          </h2>
+          <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eum doloremque. Aliquam ut nobis ipsam
+              commodi dolor placeat? Laborum at iste et velit inventore ullam iure quo, tempore eligendi tempora.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion mb-3" id="accordionExample">
+        <div class="accordion-item mb-3 border-primary">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+              My payment was made a few days ago, but I forgot to send the confirmation letter. What should I do?
+            </button>
+          </h2>
+          <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eum doloremque. Aliquam ut nobis ipsam
+              commodi dolor placeat? Laborum at iste et velit inventore ullam iure quo, tempore eligendi tempora.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mb-3" id="accordionExample">
+        <div class="accordion-item mb-3 border-primary">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+              How long will it take for my CV to be completed?
+            </button>
+          </h2>
+          <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eum doloremque. Aliquam ut nobis ipsam
+              commodi dolor placeat? Laborum at iste et velit inventore ullam iure quo, tempore eligendi tempora.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mb-3" id="accordionExample">
+        <div class="accordion-item mb-3 border-primary">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7">
+              Do you offer refunds?
+            </button>
+          </h2>
+          <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eum doloremque. Aliquam ut nobis ipsam
+              commodi dolor placeat? Laborum at iste et velit inventore ullam iure quo, tempore eligendi tempora.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mb-3" id="accordionExample">
+        <div class="accordion-item mb-3 border-primary">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faq8" aria-expanded="false" aria-controls="faq8">
+              Do I need to see you at any point?
+            </button>
+          </h2>
+          <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eum doloremque. Aliquam ut nobis ipsam
+              commodi dolor placeat? Laborum at iste et velit inventore ullam iure quo, tempore eligendi tempora.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mb-3" id="accordionExample">
+        <div class="accordion-item mb-3 border-primary">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faq9" aria-expanded="false" aria-controls="faq9">
+              Will my CV be successful in getting a job?
+            </button>
+          </h2>
+          <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eum doloremque. Aliquam ut nobis ipsam
+              commodi dolor placeat? Laborum at iste et velit inventore ullam iure quo, tempore eligendi tempora.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mb-3" id="accordionExample">
+        <div class="accordion-item mb-3 border-primary">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faq10" aria-expanded="false" aria-controls="faq10">
+              Can I come back to CVroom if I need another CV?
+            </button>
+          </h2>
+          <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eum doloremque. Aliquam ut nobis ipsam
+              commodi dolor placeat? Laborum at iste et velit inventore ullam iure quo, tempore eligendi tempora.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mb-3" id="accordionExample">
+        <div class="accordion-item mb-3 border-primary">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faq11" aria-expanded="false" aria-controls="faq11">
+              Can I get different CV for different roles and what is the limit?
+            </button>
+          </h2>
+          <div id="faq11" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eum doloremque. Aliquam ut nobis ipsam
+              commodi dolor placeat? Laborum at iste et velit inventore ullam iure quo, tempore eligendi tempora.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mb-3" id="accordionExample">
+        <div class="accordion-item mb-3 border-primary">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faq12" aria-expanded="false" aria-controls="faq12">
+              How many reviews can I have and When do I get the final CV?
+            </button>
+          </h2>
+          <div id="faq12" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eum doloremque. Aliquam ut nobis ipsam
+              commodi dolor placeat? Laborum at iste et velit inventore ullam iure quo, tempore eligendi tempora.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mb-3" id="accordionExample">
+        <div class="accordion-item mb-3 border-primary">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faq13" aria-expanded="false" aria-controls="faq13">
+              Do I need a job description to order a cover letter?
+            </button>
+          </h2>
+          <div id="faq13" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eum doloremque. Aliquam ut nobis ipsam
+              commodi dolor placeat? Laborum at iste et velit inventore ullam iure quo, tempore eligendi tempora.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mb-3" id="accordionExample">
+        <div class="accordion-item mb-3 border-primary">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faq14" aria-expanded="false" aria-controls="faq14">
+              Do you do a free CV review? 
+            </button>
+          </h2>
+          <div id="faq14" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eum doloremque. Aliquam ut nobis ipsam
+              commodi dolor placeat? Laborum at iste et velit inventore ullam iure quo, tempore eligendi tempora.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-sm-10 col-md-6 col-lg-6 justify-content-center justify-content-md-start text-center">
+          <svg width="57" height="51" viewBox="0 0 57 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M39.6028 47.2487C38.7395 46.6033 37.7823 47.0484 36.8627 46.9594C36.4685 46.9149 36.2433 46.8036 36.0556 46.3807C35.4363 45.0007 34.7982 43.6431 34.1601 42.2631C34.085 42.1073 34.0099 41.9738 33.9161 41.7735C33.4844 42.1518 33.0903 42.5079 32.6774 42.8418C28.4171 46.3139 23.7251 47.5826 18.639 46.581C10.7565 45.023 4.63818 38.0342 3.02414 28.8865C1.14735 18.3811 5.76425 7.76444 14.0597 3.44654C21.0789 -0.203641 29.3555 1.51016 34.9108 7.76444C35.1923 8.07604 35.2111 8.27635 34.9296 8.61021C34.3102 9.3447 33.7097 10.1014 33.1278 10.8582C32.8651 11.2143 32.715 11.192 32.4147 10.8804C29.5056 7.6309 26.0524 5.98386 22.0736 5.80581C21.9234 5.80581 21.7545 5.80581 21.5293 5.80581C21.6231 6.05063 21.6794 6.20644 21.7545 6.36224C24.0817 11.4146 26.4089 16.467 28.7174 21.5417C30.2188 24.8135 31.7203 28.0853 33.2405 31.3571C33.4094 31.7355 33.4281 32.0248 33.1842 32.3587C32.4897 33.338 31.8141 34.3395 31.0446 35.4524C30.5003 34.295 30.0687 33.338 29.6183 32.3809C25.7145 23.9232 21.792 15.4877 17.8883 7.00769C17.7006 6.58481 17.5317 6.47352 17.1188 6.62932C11.0943 8.92181 6.79649 15.2206 6.27099 22.6545C5.59534 31.9358 10.9817 40.4158 18.6766 42.2854C23.894 43.554 31.6452 40.9722 35.1548 33.5383C36.2621 31.179 37.238 28.7085 38.2703 26.2824C41.2919 19.1824 44.3135 12.0601 47.3352 4.93777C47.7856 3.86943 48.236 2.82334 48.7427 1.66596C48.8741 1.88854 48.9492 2.02208 49.0055 2.15562C50.6758 6.05063 52.3274 9.9679 53.9978 13.8629C54.1479 14.219 54.1479 14.4861 53.9978 14.8422M48.724 11.1475C48.6114 11.3924 48.5363 11.5259 48.48 11.6594C45.9463 17.6021 43.4502 23.5448 40.8978 29.4875C39.584 32.5145 38.5142 35.7195 36.6937 38.4126C36.6187 38.5239 36.6374 38.8132 36.7125 38.969C37.1442 39.9484 37.5946 40.9277 38.045 41.907C38.1013 42.0183 38.1764 42.1073 38.2703 42.2409C38.3641 42.0405 38.4392 41.8847 38.5142 41.7289C40.3723 37.3443 42.2303 32.9819 44.0883 28.5972C46.0402 24.0122 47.9733 19.4272 49.9251 14.8422C50.0002 14.6419 50.094 14.3526 50.019 14.1968C49.6248 13.2175 49.1932 12.2381 48.724 11.1475Z"
+              fill="white" />
+          </svg>
+
+          <p class="lead fw-bold my-3">
+            The CV Room | Stand Out With A <br> Powerful CV
+          </p>
+
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 ">
+          <div class="d-flex justify-content-center">
+            <a href="" class="btn footer-custom-pill">Home</a>
+            <a href="" class="btn footer-custom-pill">Testimonials</a>
+            <a href="" class="btn footer-custom-pill ">FAQ'S</a>
+            <a href="" class="btn footer-custom-pill ">Contact</a>
+          </div>
+          <div class="d-flex justify-content-center">
+            <span><i class="bi bi-linkedin"></i></span>
+            <span><i class="bi bi-instagram"></i></span>
+            <span><i class="bi bi-twitter-x"></i></span>
+            <span><i class="bi bi-facebook"></i></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
   </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
