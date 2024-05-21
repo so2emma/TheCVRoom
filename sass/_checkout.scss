@@ -1,0 +1,190 @@
+:root {
+  --primary-color: rgb(11, 78, 179);
+}
+
+$primary: rgb(166, 28, 87);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Progressbar */
+.progressbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  counter-reset: step;
+  margin: 2rem 0 4rem;
+}
+
+.progressbar::before,
+.progress {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 100%;
+  background-color: #dcdcdc;
+  z-index: -1;
+}
+
+.progress {
+  background-color: var(--primary-color);
+  /* background-color: $primary; */
+  width: 0%;
+  transition: 0.3s;
+}
+
+.progress-step {
+  width: 2.1875rem;
+  height: 2.1875rem;
+  background-color: #dcdcdc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-step::before {
+  counter-increment: step;
+  content: counter(step);
+}
+
+.progress-step::after {
+  content: attr(data-title);
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  font-size: 0.85rem;
+  color: $primary;
+  font-weight: bold;
+}
+
+.progress-step-active {
+  background-color: var(--primary-color);
+  background-color: $primary;
+  color: #f3f3f3;
+}
+
+/* Form */
+// .form {
+  // width: clamp(320px, 30%, 430px);
+  /* margin: 0 auto; */
+  /* border: 1px solid #ccc; */
+  /* border-radius: 0.35rem; */
+  /* padding: 1.5rem; */
+// }
+.form{
+
+}
+
+.form-step {
+  display: none;
+  transform-origin: top;
+  animation: animate 0.5s;
+}
+
+.form-step-active {
+  display: block;
+}
+
+@keyframes animate {
+  from {
+    transform: scale(1, 0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+
+// this is for the form aspect
+.form-col{
+  background: #ffffff;
+}
+
+.pin-input {
+  width: 50px !important; 
+  height: 50px;
+  text-align: center;
+  font-size: 24px;
+  margin: 0 5px;
+}
+
+
+.interview-session{
+  color: #374151;
+}
+
+// this is for the other phase
+.order-summary {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.order-header h2 {
+  background-color: #DED678;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  margin: -20px -20px 20px -20px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+
+}
+
+.item, .total {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.total{
+  font-weight: bold;
+}
+
+.addons {
+  padding: 10px 0;
+}
+
+.addons h3 {
+  margin: 0;
+}
+
+.addons .label {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  align-items: center;
+}
+
+.addons .checkbox{
+  margin-left: 5px;
+  padding-right: 10px;
+}
+
+.addon-price, .price, .total-price {
+  color: $primary;
+}
+
+.total {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.total p {
+  margin: 0;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+
