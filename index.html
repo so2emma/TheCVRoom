@@ -8,6 +8,15 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- this is for the owl carousel  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/main.css" />
 
 </head>
@@ -17,7 +26,6 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <!-- <img src="assets/img/cv_room logo.png" alt="" /> -->
                     <svg width="63" height="55" viewBox="0 0 63 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M45.0231 54.8387C43.9871 54.0642 42.8386 54.5983 41.735 54.4915C41.262 54.4381 40.9918 54.3045 40.7666 53.7971C40.0234 52.1411 39.2576 50.5119 38.4919 48.856C38.4018 48.669 38.3117 48.5088 38.1991 48.2684C37.6811 48.7224 37.2082 49.1498 36.7127 49.5504C31.6003 53.7169 25.97 55.2393 19.8666 54.0374C10.4076 52.1678 3.06562 43.7813 1.12877 32.8041C-1.12338 20.1976 4.41691 7.45756 14.3714 2.27608C22.7944 -2.10413 32.7264 -0.0475698 39.3928 7.45756C39.7306 7.83148 39.7531 8.07186 39.4153 8.47249C38.6721 9.35388 37.9514 10.262 37.2532 11.1701C36.9379 11.5974 36.7578 11.5707 36.3974 11.1968C32.9066 7.29731 28.7626 5.32087 23.9881 5.1072C23.8079 5.1072 23.6052 5.1072 23.3349 5.1072C23.4476 5.401 23.5151 5.58796 23.6052 5.77492C26.3979 11.8378 29.1905 17.9006 31.9607 23.9902C33.7624 27.9164 35.5641 31.8426 37.3884 35.7687C37.591 36.2228 37.6136 36.57 37.3208 36.9706C36.4875 38.1458 35.6767 39.3477 34.7533 40.6831C34.1002 39.2943 33.5822 38.1458 33.0417 36.9973C28.3572 26.848 23.6502 16.7255 18.9658 6.54947C18.7406 6.042 18.5379 5.90846 18.0424 6.09542C10.813 8.84641 5.65559 16.405 5.02499 25.3257C4.21421 36.4632 10.6779 46.6391 19.9117 48.8827C26.1727 50.4051 35.474 47.3069 39.6855 38.3862C41.0143 35.5551 42.1854 32.5904 43.4241 29.6792C47.0501 21.1591 50.676 12.6123 54.302 4.06556C54.8425 2.78355 55.383 1.52824 55.9911 0.139391C56.1487 0.406478 56.2388 0.566729 56.3064 0.726981C58.3108 5.401 60.2927 10.1017 62.2971 14.7757C62.4773 15.2031 62.4773 15.5236 62.2971 15.9509M55.9686 11.5173C55.8334 11.8111 55.7434 11.9713 55.6758 12.1316C52.6354 19.2628 49.64 26.394 46.5771 33.5252C45.0006 37.1576 43.7169 41.0036 41.5323 44.2354C41.4422 44.3689 41.4647 44.7161 41.5548 44.9031C42.0728 46.0783 42.6133 47.2535 43.1539 48.4286C43.2214 48.5622 43.3115 48.669 43.4241 48.8293C43.5367 48.5889 43.6268 48.4019 43.7169 48.215C45.9465 42.9534 48.1761 37.7185 50.4058 32.4569C52.748 26.9549 55.0677 21.4529 57.41 15.9509C57.5 15.7105 57.6126 15.3633 57.5226 15.1764C57.0496 14.0012 56.5316 12.826 55.9686 11.5173Z"
@@ -45,11 +53,11 @@
     <section class="banner text-center text-sm-start pb-5">
         <div class="container pb-5">
             <div class="row justify-content-center justify-content-lg-start">
-                <div class="col-10 col-md-11 col-lg-6 ">
-                    <p class="display-6 display-md-5 display-lg-4 fw-bold text-primary mt-0">
+                <div class="col-12 col-md-11 col-lg-6 mt-4">
+                    <p class="display-5 lh-base fw-bold text-primary mt-0">
                         Seeking a job shouldn't be a solitary journey.
                     </p>
-                    <p class=" fw-normal mt-3 lead">
+                    <p class=" fw-normal mt-3 content-font mb-4">
                         Our professional team will craft a personalized CV that brings out
                         your best. We will guide you at every step and continue as trusted
                         partners with our excellent customer support and unlimited
@@ -67,7 +75,7 @@
         <div class="container">
             <div class="row justify-content-center align-items-center py-3">
                 <div class="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center">
-                    <p class="fw-bold lead text-primary text-center text-lg-start">
+                    <p class="fw-bold fs-4 text-primary text-center text-lg-start">
                         We are trusted by the following companies *
                     </p>
                 </div>
@@ -92,16 +100,16 @@
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-sm-12 col-md-6 col-lg-6">
-                    <div class="d-flex justify-content-center d-md-block">
+                    <div class="d-flex justify-content-center justify-content-md-evenly d-md-block">
                         <p class="custom-pill">About Us</p>
                     </div>
 
-                    <p class="text-primary fs-3 fw-bold mt-sm-2 my-md-3 text-center text-md-start">
+                    <p class="text-primary fs-4 fw-bold mt-sm-2 my-md-3 text-center text-md-start">
                         Communicating Unique Values beyond highlighting your
                         qualifications.
                     </p>
 
-                    <p class="fw-normal text-center text-md-start lead">
+                    <p class="fw-normal text-center text-md-start content-font me-lg-5">
                         At CVroom, we firmly believe that your CV should reflect your
                         individuality. That's why we create unique CVs from scratch,
                         abstaining from generic templates. Our expertise lies in crafting
@@ -111,7 +119,7 @@
                     </p>
                 </div>
                 <div class="col-sm-9 col-md-6 col-lg-6">
-                    <img src="assets/img/about-us-img.png" class="img-fluid" alt="" />
+                    <img src="assets/img/about-us-img.png" class="img-fluid d-block m-auto " alt="" />
                 </div>
             </div>
         </div>
@@ -136,9 +144,9 @@
                             fill="#9A1A4B" />
                     </svg>
 
-                    <p class="fw-bold lead my-4">Select a service</p>
+                    <p class="fw-bold fs-4 my-4">Select a service</p>
 
-                    <p class="lead fw-normal">
+                    <p class="content-font fw-normal">
                         Select your desired CV or package and place your order. We also
                         offer cover letters, linkedin profile and job interview prep
                         support.
@@ -160,9 +168,9 @@
                             stroke="#FFA033" stroke-width="2" stroke-linecap="round" />
                     </svg>
 
-                    <p class="fw-bold lead my-4">Expertly Crafted CVs</p>
+                    <p class="fw-bold fs-4 my-4">Expertly Crafted CVs</p>
 
-                    <p class="lead fw-normal">
+                    <p class="content-font fw-normal">
                         Once your order is confirmed a dedicated professional CV writer
                         will promptly reach out to you for more information. For
                         specialized CVs, we'll assign a writer well-versed in your
@@ -180,9 +188,9 @@
                         <path d="M48.333 74.5293V80.8001" stroke="#DED678" stroke-width="2" stroke-linecap="round" />
                         <path d="M62.667 74.5293V80.8001" stroke="#DED678" stroke-width="2" stroke-linecap="round" />
                     </svg>
-                    <p class="fw-bold lead my-4">Efficient CV Delivery</p>
+                    <p class="fw-bold fs-4 my-4">Efficient CV Delivery</p>
 
-                    <p class="lead fw-normal">
+                    <p class="content-font fw-normal">
                         Your writer will fulfil your order within the agreed time and
                         deliver it in Microsoft Word and PDF formats. We'll revise your CV
                         until you're completely satisfied. 
@@ -203,147 +211,122 @@
                 </p>
             </div>
             <div class="container">
-                <div id="myCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item carousel-image-1 active">
-                            <div class="container">
-                                <div class="carousel-caption mb-5">
-                                    <div class="container">
-                                        <div class="row justify-content-center">
-                                            <div class="col-12 col-sm-12 col-md-7 col-lg-6 border p-3 rounded">
-                                                <div class="d-flex align-items-center mb-4">
-                                                    <svg class="bd-placeholder-img rounded-circle" width="50"
-                                                        height="50" xmlns="http://www.w3.org/2000/svg" role="img"
-                                                        aria-label="Placeholder: 140x140"
-                                                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                                                        <title>Placeholder</title>
-                                                        <rect width="100%" height="100%" fill="#777" /><text x="50%"
-                                                            y="50%" fill="#777" dy=".3em">140x140</text>
-                                                    </svg>
-                                                    <div class="text-start p-1">
-                                                        <p class="fw-bold text-primary mb-0">Leo Sanders</p>
-                                                        <p class="mb-0">Senior Dev, Microsoft</p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="text-start">
-                                                    I didn't know how to position myself correctly after graduating, but
-                                                    CVroom helped! They created a powerful CV and cover letter that
-                                                    highlighted my
-                                                    potential. Within weeks, I was hired!
-                                                </div>
-                                                <div class="rating">
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </div>
-                                            </div>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-sm-12 col-md-7 col-lg-6 border p-3 rounded">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <svg class="bd-placeholder-img rounded-circle" width="50" height="50"
+                                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
+                                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                                            <title>Placeholder</title>
+                                            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                                                dy=".3em">140x140</text>
+                                        </svg>
+                                        <div class="text-start p-1">
+                                            <p class="fw-bold text-primary mb-0">Leo Sanders</p>
+                                            <p class="mb-0">Senior Dev, Microsoft</p>
                                         </div>
-
+                                    </div>
+            
+                                    <div class="text-start fw-normal">
+                                        I didn't know how to position myself correctly after graduating, but
+                                        CVroom helped! They created a powerful CV and cover letter that
+                                        highlighted my
+                                        potential. Within weeks, I was hired!
+                                    </div>
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="carousel-item carousel-image-2 ">
-                            <div class="container">
-                                <div class="carousel-caption mb-5">
-                                    <div class="container">
-                                        <div class="row justify-content-center">
-                                            <div class="col-12 col-sm-12 col-md-7 col-lg-6 border p-3 rounded">
-                                                <div class="d-flex align-items-center mb-4">
-                                                    <svg class="bd-placeholder-img rounded-circle" width="50"
-                                                        height="50" xmlns="http://www.w3.org/2000/svg" role="img"
-                                                        aria-label="Placeholder: 140x140"
-                                                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                                                        <title>Placeholder</title>
-                                                        <rect width="100%" height="100%" fill="#777" /><text x="50%"
-                                                            y="50%" fill="#777" dy=".3em">140x140</text>
-                                                    </svg>
-                                                    <div class="text-start p-1">
-                                                        <p class="fw-bold text-primary mb-0">Leo Sanders</p>
-                                                        <p class="mb-0">Senior Dev, Microsoft</p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="text-start">
-                                                    I didn't know how to position myself correctly after graduating, but
-                                                    CVroom helped! They created a powerful CV and cover letter that
-                                                    highlighted my
-                                                    potential. Within weeks, I was hired!
-                                                </div>
-                                                <div class="rating">
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item carousel-image-3 ">
-                            <div class="container">
-                                <div class="carousel-caption mb-5">
-                                    <div class="container">
-                                        <div class="row justify-content-center">
-                                            <div class="col-12 col-sm-12 col-md-7 col-lg-6 border p-3 rounded">
-                                                <div class="d-flex align-items-center mb-4">
-                                                    <svg class="bd-placeholder-img rounded-circle" width="50"
-                                                        height="50" xmlns="http://www.w3.org/2000/svg" role="img"
-                                                        aria-label="Placeholder: 140x140"
-                                                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                                                        <title>Placeholder</title>
-                                                        <rect width="100%" height="100%" fill="#777" /><text x="50%"
-                                                            y="50%" fill="#777" dy=".3em">140x140</text>
-                                                    </svg>
-                                                    <div class="text-start p-1">
-                                                        <p class="fw-bold text-primary mb-0">Leo Sanders</p>
-                                                        <p class="mb-0">Senior Dev, Microsoft</p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="text-start">
-                                                    I didn't know how to position myself correctly after graduating, but
-                                                    CVroom helped! They created a powerful CV and cover letter that
-                                                    highlighted my
-                                                    potential. Within weeks, I was hired!
-                                                </div>
-                                                <div class="rating">
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
+            
                         </div>
                     </div>
-                    <a href="#myCarousel" data-bs-slide="prev" class="carousel-control-prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-
-                    <a href="#myCarousel" data-bs-slide="next" class="carousel-control-next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
+                    <div class="item">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-sm-12 col-md-7 col-lg-6 border p-3 rounded">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <svg class="bd-placeholder-img rounded-circle" width="50" height="50"
+                                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
+                                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                                            <title>Placeholder</title>
+                                            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                                                dy=".3em">140x140</text>
+                                        </svg>
+                                        <div class="text-start p-1">
+                                            <p class="fw-bold text-primary mb-0">Leo Sanders</p>
+                                            <p class="mb-0">Senior Dev, Microsoft</p>
+                                        </div>
+                                    </div>
+            
+                                    <div class="text-start fw-normal">
+                                        I didn't know how to position myself correctly after graduating, but
+                                        CVroom helped! They created a powerful CV and cover letter that
+                                        highlighted my
+                                        potential. Within weeks, I was hired!
+                                    </div>
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-sm-12 col-md-7 col-lg-6 border p-3 rounded">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <svg class="bd-placeholder-img rounded-circle" width="50" height="50"
+                                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
+                                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                                            <title>Placeholder</title>
+                                            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                                                dy=".3em">140x140</text>
+                                        </svg>
+                                        <div class="text-start p-1">
+                                            <p class="fw-bold text-primary mb-0">Leo Sanders</p>
+                                            <p class="mb-0">Senior Dev, Microsoft</p>
+                                        </div>
+                                    </div>
+            
+                                    <div class="text-start fw-normal">
+                                        I didn't know how to position myself correctly after graduating, but
+                                        CVroom helped! They created a powerful CV and cover letter that
+                                        highlighted my
+                                        potential. Within weeks, I was hired!
+                                    </div>
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
                 </div>
             </div>
-
-
         </div>
     </section>
+
+
+
 
     <section class="get-started py-5 px-2">
         <div class="container py-5 rounded">
@@ -368,7 +351,7 @@
                             fill="white" />
                     </svg>
 
-                    <p class="lead fw-bold my-3">
+                    <p class=" fw-bold my-3">
                         The CV Room | Stand Out With A <br> Powerful CV
                     </p>
                 </div>
@@ -395,6 +378,32 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            margin: 10,
+            nav: true,
+            center: true,
+            items: 2,
+            loop: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        })
+    </script>
 </body>
 
 </html>

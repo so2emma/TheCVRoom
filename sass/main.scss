@@ -1,6 +1,31 @@
-body{
-  overflow-x: hidden;
+@font-face {
+  font-family: 'Axiforma';
+  src: url("../assets/font/Axiforma-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
+
+body {
+  overflow-x: hidden;
+  font-family: 'Axiforma', sans-serif !important;
+  font-weight: 400;
+}
+// custom font size 
+.content-font {
+  // margin: 0;
+  font-size: 16px; 
+}
+@media screen and (min-width: 768px) {
+  .content-font {
+    font-size: 18px; 
+  }
+}
+@media screen and (min-width: 1024px) {
+  .content-font {
+    font-size: 20px; 
+  }
+}
+
 //custom styles
 .nav-section {
   nav {
@@ -14,12 +39,22 @@ body{
     }
   }
 }
-.linear-design{
-  background: linear-gradient(to right, rgba(166, 28, 87,0.15), rgba(241,241,241,1));
+.linear-design {
+  background: linear-gradient(
+    to right,
+    rgba(203, 142, 213, 0.24),
+    rgb(241, 241, 241),
+    rgba(241, 241, 241, 1)
+  );
 }
 
 .banner {
-  background: linear-gradient(to right, rgba(166, 28, 87,0.1), rgba(241,241,241,1));
+  background: linear-gradient(
+    to right,
+    rgba(203, 142, 213, 0.24),
+    rgb(241, 241, 241),
+    rgba(241, 241, 241, 1)
+  );
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
@@ -27,32 +62,21 @@ body{
   margin-top: 0;
 
   @media screen and (min-width: 768px) {
-    background: url("../assets/img/landingPage-1.png"), linear-gradient(to right, rgba(166, 28, 87,0.1), rgba(241,241,241,1));
+    background: url("../assets/img/landingPage-1.png"),
+      linear-gradient(
+        to right,
+        rgba(203, 142, 213, 0.24),
+        rgb(241, 241, 241),
+        rgba(241, 241, 241, 1)
+      );
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
   }
 }
 
-//carousel
-.carousel-item{
-  height: 450px;
-}
-.carousel-image-1{
-  background: transparent;
-  background-size: cover;
-}
-.carousel-image-2{
-  background: transparent;
-  background-size: cover;
-}
-.carousel-image-3{
-  background: transparent;
-  background-size: cover;
-}
-
-.rating{
-  color: gold;
+.rating {
+  color: rgba(255, 160, 51, 1);
 }
 
 .companies {
@@ -85,6 +109,76 @@ body{
   }
 }
 
+//this is for the services page
+.services-tab {
+  .container {
+    .tabs {
+      display: flex;
+      ul {
+        display: flex;
+        list-style-type: none;
+        line-height: 30px;
+        border: 1px solid rgba(241, 245, 249, 1);
+        margin: 0;
+        padding: 0;
+        border-radius: 5px;
+
+        .active {
+          color: white;
+          background-color: rgba(154, 26, 75, 1);
+          border-radius: 5px;
+        }
+
+        li {
+          padding: 5px;
+          margin: 1px;
+          font-size: 16px; 
+          border: 1px rgba(241, 245, 249, 1);
+          text-align: center;
+          transition: border 1s ease-in-out;
+        }
+        @media screen and (min-width: 768px) {
+          li {
+            padding: 8px;
+            font-size: 16px; 
+          }
+        }
+        @media screen and (min-width: 1024px) {
+          li {
+            padding: 12px;
+            font-size: 17px; 
+          }
+        }
+
+        li:hover {
+          cursor: pointer;
+          border: 1px solid rgba(241, 245, 249, 1);
+          margin: 0px;
+        }
+      }
+    }
+  }
+}
+
+/// this is for the contact page
+.contact-info {
+  p {
+    font-size: 16px;
+    border: solid 1px rgba(203, 213, 225, 1);
+    color: rgba(203, 213, 225, 1);
+  }
+  @media screen and (min-width: 768px) {
+    p {
+      font-size: 18px; 
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    p {
+      font-size: 20px; 
+    }
+  }
+}
+
 .footer {
   background-color: #1a0e0e;
   color: rgb(255, 255, 255);
@@ -94,15 +188,30 @@ body{
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 40px;
     margin: 4px;
+    font-weight: 400;
+    font-size: 12px; 
+    font-family: Poppins;
+
+    // line-height: 24px;
+  }
+  @media screen and (min-width: 768px) {
+    .footer-custom-pill {
+      font-size: 16px; 
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .footer-custom-pill {
+      font-size: 16px; 
+    }
   }
 
   span {
     i {
       margin: 10px;
-      font-size: 1.2rem;
+      font-size: 18px;
       background-color: rgba(255, 255, 255, 0.1);
-      padding: 6px 8px;
-    }
+      padding: 10px 10px;
+    } 
   }
 }
 
@@ -114,16 +223,16 @@ body{
   border-radius: 30px;
   p {
     margin: 0;
-    font-size: 14px; // Default font size for small screens
+    font-size: 12px; 
   }
   @media screen and (min-width: 768px) {
     p {
-      font-size: 16px; // Font size for medium screens
+      font-size: 16px; 
     }
   }
   @media screen and (min-width: 1024px) {
     p {
-      font-size: 18px; // Font size for large screens
+      font-size: 17px; 
     }
   }
 }
@@ -136,6 +245,12 @@ body{
 
 //custom variables
 $primary: rgb(166, 28, 87);
+
+$accordion-icon-color: $primary;
+$accordion-icon-active-color: $primary;
+
+$accordion-button-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus-lg' stroke='#{$accordion-icon-color}' viewBox='0 0 16 16'><path fill-rule='evenodd' d='M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2'/></svg>");
+$accordion-button-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' stroke='#{$accordion-icon-active-color}' class='bi bi-dash-lg' viewBox='0 0 16 16'><path fill-rule='evenodd' d='M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8'/></svg>");
 
 // importing bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
